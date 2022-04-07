@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 
 const ProductDetails = () => {
-  let { productId } = useParams();
+  const { productId } = useParams();
+
   return (
     <div>
       <p>
